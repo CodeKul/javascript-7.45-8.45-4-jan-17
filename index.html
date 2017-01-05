@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1 id="myH1"> Welcome to CodeKul</h1>
+    </div>
+    <div>
+        <h2>DOM - Document Object Model</h2>
+    </div>
+    <div>
+        <input type="button" value="Okay" onclick="changeBorder();" />
+    </div>
+
+    <script type="text/javascript">
+        var arr = ['red','yellow','green','blue','brown'];
+
+        function changeBorder() {
+            var color = Math.floor(Math.random() * 5);
+            console.log('Generetaed color is '+color);
+            var myH1 = document.getElementById('myH1');
+            myH1.style.border = '1px solid '+arr[color] ; 
+        }
+    </script>
+</body>
+
+</html>
