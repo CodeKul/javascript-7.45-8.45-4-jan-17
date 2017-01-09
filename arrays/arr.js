@@ -19,7 +19,7 @@ for(let i = 0; i < os.length ;i++){
     console.log(`${i}th is ${os[i]}`);
 }
 
-os['1'] = 'one';
+os['1'] = 'one two';
 os['2'] = 'two';
 console.log(`Text is  ${os['1']}`);
 
