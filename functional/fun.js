@@ -45,3 +45,5 @@ myFun(function(){
 });
 
 console.log(anoLambda);
+
+console.log(`Hello world ${square(5)}`);
